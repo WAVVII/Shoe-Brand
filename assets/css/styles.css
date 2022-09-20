@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+*
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Josefin Sans', sans-serif;
+list-style: none;
+max-height: 1000vh;
+}
+
+header{
+    position: relative;
+    position: fixed;
+    right:0;
+    top:0;
+    width:100%;
+    z-index: 1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(255, 255, 255, 0.801);
+    padding: 5px 70px;
+    border-bottom:1px solid transparent;
+    transition: all .40 ease;
+    text-decoration: none;
+}
+
+.logo img{
+    position: relative;
+    max-width: 100px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: rgb(0, 0, 0);
+    font-size: 1.05rem;
+    font-weight: 600;
+    padding: 13px 25px;
+    margin: 0 2px;
+    border-radius: 20rem;
+    transition: all .40s ease;
+}
+
+.navbar #active{
+    color: black
+}
+
+.navbar li a{
+    text-decoration: none;
+    display: list-item;
+}
+
+.btn img{
+    max-width: 30px;
+}
+
+#active{
+    background: #f1d4d4;
+    border: 2px solid;
+}
+
+.page1{
+    padding: 280px 70px
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.desc{
+    grid-gap: 1em;
+    position: relative;
+    max-width: 600px;
+    padding: 5px;
+}
+
+.desc h1{
+    font-weight: 900;
+    font-size: 2.8em;
+    margin-bottom: 40px;
+}
+
+.desc p{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.desc a{
+    background-color: pink;
+    border-radius: 40px;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-weight: 800;
+    border: 2px solid;
+    color: black;
+    left: 0;
+}
+
+.desc span{
+    color: orange;
+}
+
+.highlight img{
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-top: 0px;
+
+}
