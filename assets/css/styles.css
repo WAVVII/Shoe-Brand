@@ -41,7 +41,7 @@ header{
     color: rgb(0, 0, 0);
     font-size: 1.05rem;
     font-weight: 600;
-    padding: 10px 20px;
+    padding: 5px 15px;
     margin: 0 2px;
     border-radius: 20rem;
     transition: all .40s ease;
@@ -58,6 +58,11 @@ header{
 
 .btn img{
     max-width: 30px;
+    border: transparent;
+}
+
+.btn:hover{
+    border: transparent;
 }
 
 #active{
@@ -152,10 +157,11 @@ header{
 
 #title{
     text-align: center;
-    padding: 20px;
+    padding: 5px 15px;
     border: 3px solid black;
     display: inline-block;
     margin-bottom: 20px;
+    font-size: 2em;
 }
 
 .shoeSlider img{
