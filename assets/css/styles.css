@@ -64,8 +64,12 @@ header{
     border: 2px solid;
 }
 
+.menu_item:hover{
+    text-shadow: 0px 0.7px 1px;
+}
+
 .page1{
-    padding: 210px 70px;
+    padding: 198px 70px;
     max-height: 100vh;
 }
 
