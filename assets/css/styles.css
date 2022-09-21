@@ -8,7 +8,6 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Josefin Sans', sans-serif;
 list-style: none;
-max-height: 1000vh;
 }
 
 header{
@@ -66,17 +65,24 @@ header{
 }
 
 .page1{
-    padding: 280px 70px
+    padding: 210px 70px;
+    max-height: 100vh;
 }
 
 .hero{
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0px;
     margin-top: 10px;
+}
+
+.nikeLogo img{
+    display: flex;
+    max-width: 110px;
+    margin-left: 10px;
+    margin-bottom: 30px;
 }
 
 .desc{
@@ -84,6 +90,7 @@ header{
     position: relative;
     max-width: 600px;
     padding: 5px;
+    margin-right: 250px;
 }
 
 .desc h1{
@@ -95,6 +102,7 @@ header{
 .desc p{
     font-weight: bold;
     margin-bottom: 30px;
+    line-height: 0.62cm;
 }
 
 .desc a{
@@ -112,11 +120,59 @@ header{
     color: orange;
 }
 
-.highlight img{
-    width: 500px;
+.imgBox{
+    width: 20px;
     display: flex;
-    justify-content: flex-end;
-    padding-right: 10px;
-    margin-top: 0px;
+}
 
+.hero2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    margin-top: 10px;
+    gap: 10em;
+}
+.featuredShoes{
+    background-color: antiquewhite;
+    padding: 60px 10px;
+    max-height: 100%;    
+}
+
+.featTitle{
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+#title{
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.shoeSlider img{
+    padding: 15px 70px;
+    max-width: 570px;
+    display: inline-block;
+    border: 5px solid black;
+}
+
+.featDesc h1{
+    margin-bottom: 40px;
+}
+
+.featDesc p{
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.featbtn{
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
 }
