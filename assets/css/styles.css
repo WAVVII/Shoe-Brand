@@ -56,12 +56,12 @@ header{
     display: list-item;
 }
 
-.btn img{
+.btnav img{
     max-width: 30px;
     border: transparent;
 }
 
-.btn:hover{
+.btnav:hover{
     border: transparent;
 }
 
