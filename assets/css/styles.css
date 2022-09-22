@@ -11,6 +11,10 @@ font-family: 'Josefin Sans', sans-serif;
 list-style: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     position: relative;
     position: fixed;
@@ -63,6 +67,31 @@ header{
 
 .btnav:hover{
     border: transparent;
+}
+
+.navbtns svg{
+    margin-left: 10px;
+}
+
+.navbar{
+    margin-top: 20px;
+}
+
+.icon-btn {
+    vertical-align: middle;
+    background: transparent;
+    flex: 0 0 auto;
+    color: rgba(0,0,0,.54);
+    padding: 8px;
+    text-align: center;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: none;
+    position: relative;
+    align-items: center;
+    z-index: 1000;
 }
 
 #active{
